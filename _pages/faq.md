@@ -40,7 +40,7 @@ Yes. We have deliberately developed an open source solution for reporting UK SDG
 document.addEventListener("DOMContentLoaded", function () {
   $('#main-content h2').addClass('roleHeader');
  	$('#main-content h2').attr({
-	  'onClick': 'ga("send", "event", "FAQ", "Open FAQ heading", "'+ #main-content h2 +'")',
+	  'onClick': 'ga("send", "event", "FAQ", "Open FAQ heading", "+ #main-content h2 +")',
  	  'tabindex': 0,
  	  'role': 'button'
  	});

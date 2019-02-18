@@ -1,6 +1,7 @@
 <div class="container">
   <div class="alert alert-danger" role="alert">
     <strong class="phase-tag">{{ t.header.alpha }}</strong>
-    {{ t.header.disclaimer onClick='ga("send", "event", "Contact", "Feedback", "header")' | replace_first: '%email_address', site.email_contacts.suggestions }} 
+    {{ t.header.disclaimer | replace_first: '%email_address', site.email_contacts.suggestions }}
+    <a onClick='ga("send", "event", "Contact", "Feedback", "header")'></a>
   </div>
 </div>

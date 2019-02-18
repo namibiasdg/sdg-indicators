@@ -2,9 +2,9 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-9">
-        <a href="mailto:{{site.email_contacts.suggestions}}">{{ t.menu.contact_us }}</a>
+        <a href="mailto:{{site.email_contacts.suggestions}}" onClick='ga("send", "event", "Contact", "Contact us", "footer")'>{{ t.menu.contact_us }}</a>
         {% if site.twitter %}
-          | <a class="twitter-follow-button" href="https://twitter.com/{{ site.twitter }}" data-show-count="false">
+          | <a class="twitter-follow-button" href="https://twitter.com/{{ site.twitter }}" onClick='ga("send", "event", "Contact", "Twitter", "footer")' data-show-count="false">
               @{{ site.twitter }}
             </a>
         {% endif %}

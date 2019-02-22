@@ -17,15 +17,15 @@ remotedatabaseurl: "http://sdg.mango-solutions.com/data/featurebranch"
 
 jekyll_get_data:
   - data: meta
-    json: '"http://sdg.mango-solutions.com/data/featurebranch/meta/all.json'
+    json: 'http://sdg.mango-solutions.com/data/featurebranch/meta/all.json'
     # cache: true
     # directory: 'remotedata'
   - data: headlines
-    json: '"http://sdg.mango-solutions.com/data/featurebranch/headline/all.json'
+    json: 'http://sdg.mango-solutions.com/data/featurebranch/headline/all.json'
     # cache: true
     # directory: 'remotedata'
   - data: schema
-    json: '"http://sdg.mango-solutions.com/data/featurebranch/meta/schema.json'
+    json: 'http://sdg.mango-solutions.com/data/featurebranch/meta/schema.json'
   - data: translations
     # Pin to version of the translation repo
     json: 'https://open-sdg.github.io/sdg-translations/translations-0.3.2.json'
